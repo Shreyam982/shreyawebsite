@@ -3,18 +3,9 @@
 import Link from "next/link";
 import Image from "next/image";
 import ThemeSwitch from "./ThemeSwitch";
-import { useTheme } from "next-themes";
-
-import { useEffect, useState } from "react";
+import { SiGithub, SiLinkedin } from "@icons-pack/react-simple-icons";
 
 const NavBar = () => {
-  const { theme } = useTheme();
-  const [mounted, setMounted] = useState(false);
-
-  useEffect(() => {
-    setMounted(true);
-  }, []);
-
   return (
     <div className="container mx-auto px-4 py-6 flex items-center justify-between">
       <div className="flex items-center space-x-4">
@@ -72,20 +63,16 @@ const NavBar = () => {
               Contact
             </Link>
           </li>
-          {mounted && (
-            <li>
+          <li>
+            <div className="flex flex-row space-x-4">
               <Link href="https://github.com/PenTest-duck/personal-website">
-                <Image
-                  src={`/icons/github-${
-                    theme === "dark" ? "dark" : "light"
-                  }.svg?width=24&height=24`}
-                  alt="GitHub"
-                  width={24}
-                  height={24}
-                />
+                <SiGithub />
               </Link>
-            </li>
-          )}
+              <Link href="https://www.linkedin.com/in/chris-yoo">
+                <SiLinkedin />
+              </Link>
+            </div>
+          </li>
           <li>
             <ThemeSwitch />
           </li>
