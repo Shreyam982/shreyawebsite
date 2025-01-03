@@ -21,7 +21,11 @@ const ThemeSwitch = () => {
   }
 
   return (
-    <Toggle aria-label="Toggle theme" onPressedChange={toggleTheme}>
+    <Toggle
+      aria-label="Toggle theme"
+      onPressedChange={toggleTheme}
+      className="border-2"
+    >
       {theme === "dark" ? <Sun /> : <Moon />}
     </Toggle>
   );
