@@ -1,5 +1,5 @@
 import BlogCard, { BlogCardProps } from "@/components/BlogCard";
-import { BLOGS_ROOT_DIR } from "@/lib/env";
+import { BLOGS_ROOT_DIR } from "@/lib/constants";
 import fs from "fs";
 
 const Blog = () => {

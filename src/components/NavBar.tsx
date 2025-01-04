@@ -69,6 +69,15 @@ const NavBar = () => {
             </Link>
           </li>
           <li>
+            <Link
+              href="/random/ai"
+              className="block text-foreground hover:text-muted-foreground"
+              onClick={() => setIsOpen(false)}
+            >
+              Random
+            </Link>
+          </li>
+          <li>
             <div className="flex space-x-4 items-center">
               <Link href="https://github.com/PenTest-duck/personal-website">
                 <SiGithub />
@@ -122,6 +131,15 @@ const NavBar = () => {
                 onClick={() => setIsOpen(false)}
               >
                 Projects
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/random/ai"
+                className="block text-foreground hover:text-muted-foreground"
+                onClick={() => setIsOpen(false)}
+              >
+                Random
               </Link>
             </li>
             <li>

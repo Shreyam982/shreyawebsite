@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="container mx-auto px-4 py-12">
+    <main className="flex justify-center items-center container mx-auto px-4 py-12">
       <section className="text-center">
         <h2 className="text-4xl font-bold mb-4">Hello, I&apos;m Chris 👋</h2>
         <p className="text-xl mb-8">
