@@ -1,8 +1,9 @@
+import MyTimeline from "@/components/MyTimeline";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex justify-center items-center container mx-auto px-4 py-12">
+    <main className="flex flex-col justify-center items-center container mx-auto px-4 pt-12">
       <section className="text-center">
         <h2 className="text-4xl font-bold mb-4">Hello, I&apos;m Chris 👋</h2>
         <p className="text-xl mb-8">
@@ -22,6 +23,9 @@ export default function Home() {
           goal is to create innovative solutions that make a positive impact on
           the world.
         </p>
+      </section>
+      <section className="mt-12">
+        <MyTimeline />
       </section>
     </main>
   );

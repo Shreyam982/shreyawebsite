@@ -1,0 +1,63 @@
+[
+  {
+    "date": "March 2019",
+    "age": 13,
+    "description": "Became the youngest person ever to attain the Cisco Certified Networking Associate (CCNA).",
+    "imageUrl": "/images/ccna.png"
+  },
+  {
+    "date": "December 2019",
+    "age": 14,
+    "description": "Got paid to make training courses for security analysts."
+  },
+  {
+    "date": "June 2020",
+    "age": 14,
+    "description": "Started a cyber security club at my school. Became National Champion at the CyberTaipan cyber defence competition.",
+    "imageUrl": "/images/cybertaipan-2020.png"
+  },
+  {
+    "date": "February 2021",
+    "age": 15,
+    "description": "Reached Pro Hacker level on HackTheBox. Top 1% on TryHackMe."
+  },
+  {
+    "date": "October 2022",
+    "age": 17,
+    "description": "Won Gold Medal at the International Genetically Engineered Machine (iGEM) competition for research into synthetic biology. Led the first Australasian high school team to achieve this.",
+    "imageUrl": "/images/igem.jpeg"
+  },
+  {
+    "date": "September 2023",
+    "age": 18,
+    "description": "Graduated high school as Dux of School, with a university entrance rank of 99.95 (= top 0.05% in Australia).",
+    "imageUrl": "/images/hsc-first-in-course.jpg"
+  },
+  {
+    "date": "October 2023",
+    "age": 18,
+    "description": "Became National Champion of the CyberTaipan cyber defence competition for 4 consecutive years."
+  },
+  {
+    "date": "December 2023",
+    "age": 18,
+    "description": "Became a software engineering intern at SafetyCulture, as part of the Business Systems Architecture team.",
+    "imageUrl": "/images/leaving-safetyculture.jpg"
+  },
+  {
+    "date": "February 2024",
+    "age": 18,
+    "description": "Started my degree in Computer Science at UNSW. Received a Co-op Scholarship (4 spots, $21600 p.a.) and Scientia Scholarship ($5000)."
+  },
+  {
+    "date": "September 2024",
+    "age": 19,
+    "description": "Finished my internship at SafetyCulture. Decided to delve into the world of startups."
+  },
+  {
+    "date": "December 2024",
+    "age": 19,
+    "description": "In a span of 2 weeks, won prizes in 3 hackathons and came 3rd in a startup pitch competition (prize sum: $2200).",
+    "imageUrl": "/images/hackathon/build-club-ai-hackathon.jpeg"
+  }
+]
