@@ -16,22 +16,22 @@ const TimelineCard = ({
   imageUrl,
 }: TimelineCardProps) => {
   return (
-    <div className="h-64 w-full mb-32">
+    <div className="h-72 w-full mb-40">
       <div className="sticky top-1/2 w-1/2 pr-24">
         <p className="text-5xl font-bold text-right">{date}</p>
-        <p className="text-right">{age}yo</p>
+        <p className="text-right text-muted-foreground">{age}yo</p>
       </div>
-      <div className="absolute left-1/2 mx-24 h-64">
-        <p>{description}</p>
+      <div className="absolute left-1/2 mx-24 h-full max-w-xl">
+        <p className="text-lg">{description}</p>
         {imageUrl && (
           <Image
             src={imageUrl}
             alt={date}
-            width={250}
-            height={250}
+            width={300}
+            height={300}
             placeholder="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAAAA1BMVEWnpaaXiDhOAAAAR0lEQVR4nO3BAQEAAACCIP+vbkhAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAO8GxYgAAb0jQ/cAAAAASUVORK5CYII="
-            objectFit="contain"
-            className="my-8 mx-auto rounded-lg rotate-6"
+            className="my-8 mx-auto rounded-lg shadow-md"
+            style={{ objectFit: 'cover' }}
           />
         )}
       </div>

@@ -15,10 +15,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Chris Yoo's Website",
-  description: "Personal website of Chris Yoo, aka PenTest-duck",
+  title: 'Shreya | Portfolio',
+  description: "Shreya's Portfolio Website",
   keywords:
-    "Chris Yoo, PenTest-duck, personal website, software developer, AI, hackathon",
+    "Shreya ",
   icons: [
     { rel: "icon", url: "/icons/favicon/favicon.ico" },
     { rel: "apple-touch-icon", url: "/icons/favicon/apple-touch-icon.png" },
@@ -36,10 +36,10 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-indigo-50/30 dark:bg-indigo-950/20`}
       >
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-          <div className="min-h-screen bg-background">
+          <div className="min-h-screen">
             <header className="bg-background shadow-md">
               <NavBar />
             </header>

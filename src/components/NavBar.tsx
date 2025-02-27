@@ -16,15 +16,14 @@ const NavBar = () => {
         <Link href="/">
           <div className="flex items-center space-x-4">
             <Image
-              src="/images/portrait.svg?height=50&width=50"
-              alt="Chris Yoo"
+              src="/images/AI.JPG?height=40&width=40"
+              alt="Shreya Mukherjee"
               width={50}
               height={50}
               className="rounded-full"
             />
             <div>
-              <h1 className="text-2xl font-bold">Chris Yoo</h1>
-              <p>@PenTest-duck</p>
+              <h1 className="text-2xl font-bold">Shreya Mukherjee</h1>
             </div>
           </div>
         </Link>
@@ -69,20 +68,13 @@ const NavBar = () => {
             </Link>
           </li>
           <li>
-            <Link
-              href="/random/ai"
-              className="block text-foreground hover:text-muted-foreground"
-              onClick={() => setIsOpen(false)}
-            >
-              Random
-            </Link>
           </li>
           <li>
             <div className="flex space-x-4 items-center">
-              <Link href="https://github.com/PenTest-duck/personal-website">
+              <Link href="https://github.com/Shreyam982?tab=overview&from=2025-02-01&to=2025-02-27">
                 <SiGithub />
               </Link>
-              <Link href="https://www.linkedin.com/in/chris-yoo">
+              <Link href="https://www.linkedin.com/in/shreya-mukherjee-b5362725b/">
                 <SiLinkedin />
               </Link>
               <ThemeSwitch />
@@ -144,10 +136,10 @@ const NavBar = () => {
             </li>
             <li>
               <div className="flex space-x-4 items-center">
-                <Link href="https://github.com/PenTest-duck/personal-website">
+                <Link href="https://github.com/Shreyam982?tab=overview&from=2025-02-01&to=2025-02-27" target="_blank" rel="noopener noreferrer">
                   <SiGithub />
                 </Link>
-                <Link href="https://www.linkedin.com/in/chris-yoo">
+                <Link href="https://www.linkedin.com/in/shreya-mukherjee-b5362725b/" target="_blank" rel="noopener noreferrer">
                   <SiLinkedin />
                 </Link>
                 <ThemeSwitch />

@@ -8,24 +8,6 @@
     "thumbnailUrl": "/images/hackathon/relevance-ai-hackathon.jpeg"
   },
   {
-    "hackathon": "Build Club x Tutero AI EdTech Hackathon",
-    "date": "Dec 2024",
-    "location": "Sydney",
-    "award": "2nd - $300 Prize",
-    "description": "Built 'StudyBuddy AI' - an app that watches your webcam 👀 and sends a personal AI-generated video message to you to remind you to get back on track.",
-    "thumbnailUrl": "/images/hackathon/tutero-edtech-hackathon.jpeg",
-    "githubUrl": "https://github.com/PenTest-duck/tutero-edtech-hackathon"
-  },
-  {
-    "hackathon": "Euc AI HealthTech Hackathon",
-    "date": "Dec 2024",
-    "location": "Sydney",
-    "award": "Best in Groq - $500 Prize",
-    "description": "Built an app where users can take a photo of their receipt, and have it be translated into a nutrition summary, with AI providing feedback and generating a revised shopping list for the next grocery run.",
-    "thumbnailUrl": "/images/hackathon/euc-healthtech-hackathon.jpeg",
-    "githubUrl": "https://github.com/TyperOfCode/EucalyptusHackathon"
-  },
-  {
     "hackathon": "SXSW Sydney AI Hackathon",
     "date": "Dec 2024",
     "location": "Sydney",
@@ -35,34 +17,11 @@
     "githubUrl": "https://github.com/PenTest-duck/sxsw-hackathon-2024"
   },
   {
-    "hackathon": "Terrible Ideas Hackathon",
-    "date": "Aug 2024",
-    "location": "UNSW",
-    "award": "Peak of Pointlessness Award",
-    "description": "Created 'Blink Camera' - a photo booth that only takes photos when people's eyes are blinking.",
-    "thumbnailUrl": "/images/hackathon/terrible-ideas-hackathon.jpeg",
-    "githubUrl": "https://github.com/PenTest-duck/terrible-ideas-hackathon-2024-blink-camera"
-  },
-  {
     "hackathon": "Build Club AI Hackathon",
     "date": "Jun 2024",
     "location": "Sydney",
     "description": "Built Voluntario, an AI-powered platform that connects people to volunteering opportunities of their interest.",
     "thumbnailUrl": "/images/hackathon/build-club-ai-hackathon.jpeg",
     "githubUrl": "https://github.com/coop-cmpers/build-club-ai-hackathon-2024"
-  },
-  {
-    "hackathon": "SafetyCulture ShipIt Hackathon",
-    "date": "May 2024",
-    "location": "Sydney",
-    "description": "Developed PoC of 'OmniSearch', a better way to search in the SC platform. Finalist, and chosen as 1 of 5 ideas to be turned into production.",
-    "thumbnailUrl": "/images/hackathon/safetyculture-shipit-hackathon.jpg"
-  },
-  {
-    "hackathon": "SafetyCulture Interns Hackathon",
-    "date": "Dec 2023 - Feb 2024",
-    "location": "Sydney",
-    "description": "Developed an Apple Watch integration to ensure safety of lone workers, with rapid shift sign-on, location tracking, panic alarm, and creation of tasks with voice. Turned into actual project for senior mobile engineers.",
-    "thumbnailUrl": "/images/hackathon/safetyculture-interns-hackathon.jpeg"
   }
 ]

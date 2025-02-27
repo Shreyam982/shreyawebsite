@@ -5,23 +5,28 @@ export default function Home() {
   return (
     <main className="flex flex-col justify-center items-center container mx-auto px-4 pt-12">
       <section className="text-center">
-        <h2 className="text-4xl font-bold mb-4">Hello, I&apos;m Chris 👋</h2>
+        <h2 className="text-4xl font-bold mb-4">Hi, I&apos;m Shreya!</h2>
         <p className="text-xl mb-8">
-          19 year old. University student. Software developer. AI enthusiast.
-          Aspiring founder.
+          Public Speaker. Software developer. AI & Deep-tech enthusiast.
+          Aspiring Founder. Innovator.
         </p>
         <Image
-          src="/images/portrait.svg?height=300&width=300"
-          alt="Chris Yoo"
+          src="/images/shreyaHeadshot.png"
+          alt="Shreya Mukherjee"
           width={300}
           height={300}
-          className="rounded-full mx-auto mb-8"
+          priority
+          className="rounded-full mx-auto mb-8 object-cover"
         />
+        <p className="text-lg max-w-2xl mx-auto font-bold">
+          "The best way to predict the future is to create it."
+        </p>
         <p className="text-lg max-w-2xl mx-auto">
-          As a passionate software developer, I&apos;m constantly exploring new
-          technologies and pushing the boundaries of what&apos;s possible. My
-          goal is to create innovative solutions that make a positive impact on
-          the world.
+          I'm a builder and storyteller at heart.
+          My thesis is that technology can solve some of the world's most complex 
+          problems, and I want to get to the forefront of that.
+          I love building innovative solutions that 
+          create lasting impact, and are able to change the lives of many people.
         </p>
       </section>
       <section className="mt-12">

@@ -1,63 +1,82 @@
 [
+
   {
-    "date": "March 2019",
-    "age": 13,
-    "description": "Became the youngest person ever to attain the Cisco Certified Networking Associate (CCNA).",
-    "imageUrl": "/images/ccna.png"
-  },
-  {
-    "date": "December 2019",
-    "age": 14,
-    "description": "Got paid to make training courses for security analysts."
-  },
-  {
-    "date": "June 2020",
-    "age": 14,
-    "description": "Started a cyber security club at my school. Became National Champion at the CyberTaipan cyber defence competition.",
-    "imageUrl": "/images/cybertaipan-2020.png"
-  },
-  {
-    "date": "February 2021",
-    "age": 15,
-    "description": "Reached Pro Hacker level on HackTheBox. Top 1% on TryHackMe."
-  },
-  {
-    "date": "October 2022",
+    "date": "March 2022",
     "age": 17,
-    "description": "Won Gold Medal at the International Genetically Engineered Machine (iGEM) competition for research into synthetic biology. Led the first Australasian high school team to achieve this.",
-    "imageUrl": "/images/igem.jpeg"
+    "description": "Competed nationally at the UN Youth Public Speaking Competition. Competed and won the Lions Youth Of the year awards on a state level",
+    "imageUrl": "/images/Lions2.png"
+  },
+  {
+    "date": "August 2022",
+    "age": 17,
+    "description": "Elected as the School Vice Captain for my High School.",
+    "imageUrl": "/images/viceCap.jpg"
+  },
+  {
+    "date": "February 2023",
+    "age": 17,
+    "description": "Competed nationally for state and national levels for Rotary Youth, and became Young person in STEM of the year",
+    "imageUrl": "/images/BeecroftRotaryYA-162.jpg"
   },
   {
     "date": "September 2023",
     "age": 18,
-    "description": "Graduated high school as Dux of School, with a university entrance rank of 99.95 (= top 0.05% in Australia).",
-    "imageUrl": "/images/hsc-first-in-course.jpg"
-  },
-  {
-    "date": "October 2023",
-    "age": 18,
-    "description": "Became National Champion of the CyberTaipan cyber defence competition for 4 consecutive years."
-  },
-  {
-    "date": "December 2023",
-    "age": 18,
-    "description": "Became a software engineering intern at SafetyCulture, as part of the Business Systems Architecture team.",
-    "imageUrl": "/images/leaving-safetyculture.jpg"
+    "description": "Graduated high school in the top 1%, with a university entrance rank of 97.5."
   },
   {
     "date": "February 2024",
     "age": 18,
-    "description": "Started my degree in Computer Science at UNSW. Received a Co-op Scholarship (4 spots, $21600 p.a.) and Scientia Scholarship ($5000)."
+    "description": "Started my degree in Computer Science at UNSW. Was 1 of 4 members in Australia to receive the Co-op Scholarship ($21600 p.a.).",
+    "imageUrl": "/images/Co-op.jpeg"
+  },
+  {
+    "date": "March 2024",
+    "age": 18,
+    "description": "Became a software engineering intern at Rntr, a climate tech startup focusing on improving the circular fashion network.",
+    "imageUrl": "/images/Rntr.png"
+  },
+  {
+    "date": "March 2024",
+    "age": 18,
+    "description": "Did a ted talk about the power of smaller decisions in creating our legacy and impact",
+    "imageUrl": "/images/ted2.jpeg"
+  },
+  {
+    "date": "May 2024",
+    "age": 18,
+    "description": "Interned at Berowra's Federal MP, Julian Lesser's Office focusing on data analytics software to understand telecommunications issues. Ran community events as well.",
+    "imageUrl": "/images/Politics1.jpg"
+  },
+  {
+    "date": "July 2024",
+    "age": 18,
+    "description": "Became a Technology Advisory Intern for the State Parlimentarian, The Hon. Jacqui Munro advising on AI insights and tools",
+    "imageUrl": "/images/politics3.png"
   },
   {
     "date": "September 2024",
-    "age": 19,
-    "description": "Finished my internship at SafetyCulture. Decided to delve into the world of startups."
+    "age": 18,
+    "description": "Started a software Engineering internship at Mutinex (Series A, raised 17.5M)",
+    "imageUrl": "/images/mutinex.png"
   },
   {
-    "date": "December 2024",
+    "date": "September 2024",
+    "age": 18,
+    "description": "Was one of 20 global student entrepreneurs selected for the Emerging Giants Summit in Sydney, meeting founders, VCs, and operators in the Sydney Ecosystem.",
+    "imageUrl": "/images/giants.jpeg"
+  },
+  {
+
+    "date": "October 2024",
     "age": 19,
-    "description": "In a span of 2 weeks, won prizes in 3 hackathons and came 3rd in a startup pitch competition (prize sum: $2200).",
-    "imageUrl": "/images/hackathon/build-club-ai-hackathon.jpeg"
+    "description": "Selected to join Next Chapter - a private community for the next ambitous young people",
+    "imageUrl": "/images/NC.jpeg"
+  },
+  {
+
+    "date": "November 2024",
+    "age": 19,
+    "description": "Ran an AI Ethics Event and Community platform to elevate the voices of those in development and policy and have an interdisciplinary conversation",
+    "imageUrl": "/images/AI2.jpeg"
   }
 ]
